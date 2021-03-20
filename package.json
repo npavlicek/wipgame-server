@@ -1,0 +1,26 @@
+{
+  "name": "wipjsgame-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npavlicek/wipgame-server.git"
+  },
+  "author": "Nikola Pavlicek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npavlicek/wipgame-server/issues"
+  },
+  "homepage": "https://github.com/npavlicek/wipgame-server#readme",
+  "dependencies": {
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
